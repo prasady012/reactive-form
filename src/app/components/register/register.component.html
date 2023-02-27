@@ -163,8 +163,12 @@
                         <td>{{user.phone}}</td>
                         <td>{{user.company}}</td>
                         <td>{{user.dateofbirth}}</td>
-                        <td><button class="btn btn-info" (click)="edit(user,i)">Edit</button></td>
-                        <td><button class="btn btn-danger" (click)="delete(i)">Delete</button></td>
+                        <td>
+                            <button class="btn btn-info" (click)="edit(user,i)">Edit</button>
+                        </td>
+                        <td>
+                            <button class="btn btn-danger" (click)="delete(i)">Delete</button>
+                        </td>
                     </tr>
                 </tbody>
             </table>
